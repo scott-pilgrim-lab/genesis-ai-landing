@@ -1,26 +1,26 @@
-import { Zap, Globe, Rocket, Shield } from "lucide-react";
+import { Droplets, Activity, TrendingUp, Database } from "lucide-react";
 import { motion } from "framer-motion";
 
 const benefits = [
   {
-    icon: Zap,
-    title: "AI-powered automation",
-    description: "Let intelligent workflows handle repetitive tasks",
+    icon: Droplets,
+    title: "Water Management",
+    description: "Optimize irrigation with real-time moisture tracking",
   },
   {
-    icon: Globe,
-    title: "Easy integration",
-    description: "Connect with 1000+ apps in just a few clicks",
+    icon: Activity,
+    title: "Health Monitoring",
+    description: "Track soil vitality and detect issues early",
   },
   {
-    icon: Rocket,
-    title: "Fast setup",
-    description: "Go live in minutes, not days or weeks",
+    icon: TrendingUp,
+    title: "Yield Prediction",
+    description: "AI-powered forecasting for better planning",
   },
   {
-    icon: Shield,
-    title: "Scalable architecture",
-    description: "Grows with your business, no matter the size",
+    icon: Database,
+    title: "Historical Data",
+    description: "Years of soil analytics at your fingertips",
   },
 ];
 
@@ -36,11 +36,11 @@ const ValueProposition = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Why Choose Our Platform?
+            Why Choose Soil Intelligence?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to automate, integrate, and accelerate your
-            business workflows
+            Make data-driven decisions to improve soil health, increase yields,
+            and promote sustainable farming
           </p>
         </motion.div>
 

@@ -43,17 +43,17 @@ const CTASection = () => {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Ready to Automate Your Workflow?
+            Ready to Transform Your Soil Management?
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-10">
-            Join thousands of teams already saving time with our platform. Start
-            your free trial today — no credit card required.
+            Join thousands of farmers already improving yields with our platform.
+            Start monitoring your soil health today — no commitment required.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-accent hover:bg-accent-glow text-accent-foreground shadow-accent-glow text-lg px-10 py-7 group"
+              className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-glow text-lg px-10 py-7 group"
             >
               Start Free Trial
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -81,7 +81,7 @@ const CTASection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>Free 14-day trial</span>
+              <span>30-day free trial</span>
             </div>
             <div className="flex items-center gap-2">
               <svg
