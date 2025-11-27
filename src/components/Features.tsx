@@ -1,34 +1,34 @@
-import { Brain, Workflow, BarChart3, Lock } from "lucide-react";
+import { Leaf, LineChart, MapPin, Shield } from "lucide-react";
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 
 const features = [
   {
-    icon: Brain,
-    title: "Intelligent Automation",
+    icon: Leaf,
+    title: "Soil Health Scoring",
     description:
-      "Our AI learns your workflows and optimizes them automatically. Save hours every week with smart task routing and predictive analytics.",
+      "Comprehensive analysis of soil vitality, nutrient levels, and organic matter. Get actionable scores that guide your agricultural decisions and track improvements over time.",
     gradient: "from-primary to-primary-dark",
   },
   {
-    icon: Workflow,
-    title: "Seamless Workflows",
+    icon: LineChart,
+    title: "Predictive Analytics",
     description:
-      "Build complex automation chains with our visual editor. Connect any app, API, or database without writing a single line of code.",
+      "AI-powered forecasts for crop yields, optimal planting times, and resource needs. Leverage historical data and weather patterns to maximize productivity and minimize waste.",
     gradient: "from-accent to-accent-glow",
   },
   {
-    icon: BarChart3,
-    title: "Real-time Analytics",
+    icon: MapPin,
+    title: "Precision Mapping",
     description:
-      "Monitor performance with live dashboards. Get actionable insights to optimize your operations and improve ROI continuously.",
+      "GPS-enabled soil mapping with centimeter accuracy. Visualize variations across your fields and apply targeted treatments exactly where needed for optimal results.",
     gradient: "from-primary-dark to-accent",
   },
   {
-    icon: Lock,
-    title: "Enterprise Security",
+    icon: Shield,
+    title: "Compliance & Reporting",
     description:
-      "Bank-grade encryption, SOC 2 compliance, and advanced access controls. Your data stays private and secure, always.",
+      "Automated documentation for environmental certifications and sustainable farming practices. Generate detailed reports that meet regulatory requirements effortlessly.",
     gradient: "from-accent to-primary",
   },
 ];
@@ -45,10 +45,10 @@ const Features = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Powerful Features for Modern Teams
+            Powerful Features for Modern Farming
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to build, automate, and scale your operations
+            Everything you need to monitor, analyze, and optimize your soil health
           </p>
         </motion.div>
 
