@@ -35,7 +35,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-20 md:py-32 bg-transparent backdrop-blur-sm">
       <div className="container px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -63,7 +63,7 @@ const Features = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="p-8 h-full border-2 hover:border-primary transition-colors group hover:shadow-glow bg-gradient-card">
+                <Card className="p-8 h-full border-2 hover:border-primary transition-colors group hover:shadow-glow bg-card/60 backdrop-blur-md">
                   <div
                     className={`w-14 h-14 rounded-xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
                   >
