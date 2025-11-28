@@ -39,7 +39,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 border border-primary/30 text-white backdrop-blur-sm mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white backdrop-blur-md mb-6"
           >
             <Leaf className="w-4 h-4" />
             <span className="text-sm font-medium">Advanced Soil Intelligence</span>
@@ -50,10 +50,10 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white"
+            className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white drop-shadow-lg"
           >
-            Understand Your Soil{" "}
-            <span className="text-gradient-primary">Like Never Before</span>
+            Business Sustainability{" "}
+            <span className="block mt-2">powered by <span className="text-primary">Soil Intelligence</span></span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -61,10 +61,9 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="text-xl md:text-2xl text-white/80 mb-10 max-w-3xl mx-auto"
+            className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto drop-shadow-md"
           >
-            Real-time soil health monitoring, predictive analytics, and actionable
-            insights for sustainable agriculture
+            Transform your agricultural practices with real-time insights and data-driven decisions for a sustainable future
           </motion.p>
 
           {/* CTAs */}

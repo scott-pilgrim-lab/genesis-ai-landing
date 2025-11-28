@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const CTASection = () => {
   return (
-    <section className="py-20 md:py-32 relative overflow-hidden bg-black/30 backdrop-blur-md">
+    <section className="py-20 md:py-32 relative overflow-hidden bg-black/40 backdrop-blur-lg">
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary-dark to-accent opacity-10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20" />
       
       {/* Floating Elements */}
       <motion.div
@@ -42,10 +42,10 @@ const CTASection = () => {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto text-center"
         >
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">
             Ready to Transform Your Soil Management?
           </h2>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10">
+          <p className="text-lg md:text-xl text-white/80 mb-10">
             Join thousands of farmers already improving yields with our platform.
             Start monitoring your soil health today — no commitment required.
           </p>
@@ -68,7 +68,7 @@ const CTASection = () => {
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-12 flex flex-wrap justify-center items-center gap-8 text-sm text-muted-foreground">
+          <div className="mt-12 flex flex-wrap justify-center items-center gap-8 text-sm text-white/70">
             <div className="flex items-center gap-2">
               <svg
                 className="w-5 h-5 text-primary"
