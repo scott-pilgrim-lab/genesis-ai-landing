@@ -7,22 +7,20 @@ import verticalLandscape from "@/assets/vertical-soil-landscape.jpg";
 
 const Index = () => {
   return (
-    <main className="relative min-h-screen overflow-x-hidden">
-      {/* Fixed Parallax Background - Applied via CSS */}
-      <div 
-        className="fixed inset-0 w-full h-full z-0"
-        style={{
-          backgroundImage: `url(${verticalLandscape})`,
-          backgroundAttachment: 'fixed',
-          backgroundPosition: 'center top',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" />
-      </div>
+    <main 
+      className="relative min-h-screen overflow-x-hidden"
+      style={{
+        backgroundImage: `url(${verticalLandscape})`,
+        backgroundAttachment: 'scroll',
+        backgroundPosition: 'top center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 pointer-events-none" />
 
-      {/* Content Sections - Each with min-height for parallax effect */}
+      {/* Content Sections */}
       <div className="relative z-10">
         <section className="min-h-[100vh]">
           <Hero />
