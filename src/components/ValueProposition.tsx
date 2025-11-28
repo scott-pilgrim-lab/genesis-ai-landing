@@ -26,7 +26,7 @@ const benefits = [
 
 const ValueProposition = () => {
   return (
-    <section className="py-20 md:py-32 bg-transparent backdrop-blur-sm">
+    <section className="py-20 md:py-32 bg-black/20 backdrop-blur-md">
       <div className="container px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,12 +35,12 @@ const ValueProposition = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Why Choose Soil Intelligence?
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+            Business at risk. It is time to act.
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-white/80 max-w-2xl mx-auto">
             Make data-driven decisions to improve soil health, increase yields,
-            and promote sustainable farming
+            and promote sustainable farming practices
           </p>
         </motion.div>
 
@@ -54,13 +54,13 @@ const ValueProposition = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="flex flex-col items-center text-center p-6"
+                className="flex flex-col items-center text-center p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 hover:border-primary/50 transition-all"
               >
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center mb-4 shadow-glow">
-                  <Icon className="w-8 h-8 text-primary-foreground" />
+                <div className="w-16 h-16 rounded-2xl bg-primary/20 backdrop-blur-sm border border-primary/30 flex items-center justify-center mb-4">
+                  <Icon className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
-                <p className="text-muted-foreground">{benefit.description}</p>
+                <h3 className="text-xl font-semibold mb-2 text-white">{benefit.title}</h3>
+                <p className="text-white/70">{benefit.description}</p>
               </motion.div>
             );
           })}

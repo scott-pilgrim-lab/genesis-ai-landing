@@ -4,23 +4,23 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-black/40 border-t border-border backdrop-blur-md">
+    <footer className="bg-black/50 border-t border-white/10 backdrop-blur-lg">
       <div className="container px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <h3 className="text-2xl font-bold text-gradient-primary mb-2">
-              Soil Intelligence
+            <h3 className="text-2xl font-bold text-white mb-2">
+              Cedar's <span className="text-primary">Soil</span>
             </h3>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-white/70">
               Advanced soil monitoring for sustainable agriculture
             </p>
           </div>
 
           {/* Product */}
           <div>
-            <h4 className="font-semibold mb-4">Platform</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
+            <h4 className="font-semibold mb-4 text-white">Platform</h4>
+            <ul className="space-y-2 text-sm text-white/70">
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
                   Features
@@ -46,8 +46,8 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold mb-4">Resources</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
+            <h4 className="font-semibold mb-4 text-white">Resources</h4>
+            <ul className="space-y-2 text-sm text-white/70">
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
                   Case Studies
@@ -73,8 +73,8 @@ const Footer = () => {
 
           {/* Legal */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
+            <h4 className="font-semibold mb-4 text-white">Company</h4>
+            <ul className="space-y-2 text-sm text-white/70">
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
                   About Us
@@ -99,10 +99,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <Separator className="my-8" />
+        <Separator className="my-8 bg-white/10" />
 
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© {currentYear} Soil Intelligence. All rights reserved.</p>
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/70">
+          <p>© {currentYear} Cedar's Soil. All rights reserved.</p>
           <div className="flex gap-6">
             <a
               href="#"
