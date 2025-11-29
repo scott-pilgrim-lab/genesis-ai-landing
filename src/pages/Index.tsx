@@ -16,8 +16,9 @@ const Index = () => {
           backgroundImage: `url(${verticalLandscape})`,
           backgroundAttachment: 'scroll',
           backgroundPosition: 'top center',
-          backgroundSize: 'auto 100%',
+          backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
+          backgroundColor: 'black',
         }}
       >
         {/* Gradient Overlay */}
