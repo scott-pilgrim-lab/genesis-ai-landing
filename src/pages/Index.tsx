@@ -11,15 +11,7 @@ const Index = () => {
     <>
       <Header />
       <main 
-        className="relative min-h-screen overflow-x-hidden pt-20"
-        style={{
-          backgroundImage: `url(${verticalLandscape})`,
-          backgroundAttachment: 'scroll',
-          backgroundPosition: 'top center',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          backgroundColor: 'black',
-        }}
+        className="relative min-h-screen overflow-x-hidden pt-20 bg-gradient-hero"
       >
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 pointer-events-none" />
